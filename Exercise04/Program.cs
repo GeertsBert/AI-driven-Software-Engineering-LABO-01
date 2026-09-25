@@ -32,6 +32,8 @@ void SetColor(string color)
 {
     if (color == "red")
         Console.ForegroundColor = ConsoleColor.Red;
+    else if (color == "green")
+        Console.ForegroundColor = ConsoleColor.Green;
     else if (color == "blue")
         Console.ForegroundColor = ConsoleColor.Blue;
     else if (color == "black")
